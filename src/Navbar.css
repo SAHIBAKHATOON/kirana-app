@@ -1,0 +1,58 @@
+.navbar{
+    max-width:  1500px;
+   background-color:  #f5f0ee;
+  }
+  .nav-section{
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+   height: 70px;
+   display: flex;
+   justify-content: space-between;
+  }
+  .nav-section i{
+    display: none;
+  }
+  .nav-section img{
+   height: 40px;
+   max-width: 250px;
+  }
+  .list-section ul {
+    display: flex;
+   gap: 22px;
+   list-style: none;
+   color: gray;
+ font-size: 17px;
+ cursor: pointer;
+ align-items: center;
+  }
+  .nav-section button{
+   height: 50px;
+   min-width: 220px;
+   border: none;
+   background-color: #D94F29;
+   border-radius: 10px;
+   color: #fff;
+   font-size: 17px;
+   cursor: pointer;
+  }
+  @media only screen and (max-width: 786px){
+    .navbar{
+      max-width: 380px;
+      height: 70px;
+    }
+    .list-section{
+      display: none;
+    }
+    .nav-section img{
+      width: 130px;
+      height: 30px;
+      padding-left: 10px;
+    }
+    .nav-section i{
+      display: block;
+      padding-right: 10px;
+    }
+
+  }

@@ -1,0 +1,45 @@
+.footer-section{
+    max-width: 1500px;
+    background-color: #272932;
+}
+.kirana-club{
+    color: gray;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+ .kirana-club p{
+    padding-top: 30px;
+    font-size: 14px;   
+ }
+ .kirana-club ul li{
+    cursor: pointer;
+    list-style: none;
+    padding-bottom: 20px;
+    font-size: 17px;
+    max-width: 200px;
+ }
+.logo img{
+    cursor: pointer;
+    max-width: 250px;
+}
+ .image-flex img{
+ padding-left: 20px;
+}
+@media only screen and (max-width: 786px){
+    .kirana-club{
+        display: block;
+        padding-left: 20px;
+    }        
+      .kirana-club ul{
+        padding-top: 20px;
+      }
+      .logo img{
+        background-color: black;
+      }
+}
+ 

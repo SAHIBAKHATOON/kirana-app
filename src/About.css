@@ -1,0 +1,92 @@
+.about-section{
+    max-width: 1500px;
+    margin-top: 100px;
+}
+.about-flex{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-flex p{
+    max-width: 520px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about-img img{
+    margin-bottom: 20px;
+}
+.about-img h2,
+.about-img p{
+    margin-left: 70px;
+}
+.about-flex img{
+    height: 400px;
+}
+.about-img p{
+    font-size: 12px !important;
+}
+.icon{
+    margin-left: 70px;
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+.icon img{
+    height: 50px;
+    width: 50px;
+}
+.discuss-section{
+    margin-top: 20px;
+    max-width: 1500px;
+    background-color: #FFF5F2;
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+.discuss-section h1{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 786px){
+    .about-section{
+        max-width: 380px;
+    }
+     .about-flex{
+        display: block;
+        text-align: center;
+    }
+    .about-img h2{
+         margin-left: -20px;
+    }
+        .about-img img{
+            height: 300px;
+        }
+        .icon{
+            margin-top: -110px;
+            margin-left: 100px;
+            margin-bottom: -120px;
+        }
+        .about-flex p{
+            color: gray;
+            padding-left: 30px;
+            font-size: 17px;
+            max-width: 300px;
+            letter-spacing: -1px;
+            text-align: justify !important; 
+        }
+        .discuss-section{
+            max-width: 380px;
+            overflow: hidden;
+        }
+        .discuss-section h1{
+            max-width: 250px;
+           
+        }
+         .discuss-section .btn{
+            margin-left: -20px !important;
+         }
+}
