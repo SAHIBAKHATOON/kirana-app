@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import announce from '../src/Asset/announce.png';
@@ -7,8 +7,6 @@ import listen from '../src/Asset/listen.png';
 import survey from '../src/Asset/survey.png';
 import contest from '../src/Asset/contest.png';
 import connect from '../src/Asset/connect.png';
-import left from '../src/Asset/left.svg';
-// import right from '../src/Asset/right_arrow.svg'
 import './CarouselSlider.css';
 import Arrow from './Arrow';
 
