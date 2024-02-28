@@ -1,6 +1,6 @@
 .navbar{
     max-width:  1500px;
-   background-color:  #f5f0ee;
+   background-color:  linear-gradient(180deg, #282D42 0%, #2F323F 100%);;
   }
   .nav-section{
    max-width: 1200px;
@@ -10,11 +10,13 @@
    height: 70px;
    display: flex;
    justify-content: space-between;
+   background-color: transparent;
   }
   .nav-section i{
     display: none;
   }
   .nav-section img{
+   cursor: pointer;
    height: 40px;
    max-width: 250px;
   }
@@ -37,7 +39,7 @@
    font-size: 17px;
    cursor: pointer;
   }
-  @media only screen and (max-width: 786px){
+  @media only screen and (max-width: 768px){
     .navbar{
       max-width: 380px;
       height: 70px;

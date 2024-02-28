@@ -30,16 +30,13 @@
  .image-flex img{
  padding-left: 20px;
 }
-@media only screen and (max-width: 786px){
+@media only screen and (max-width: 768px){
     .kirana-club{
         display: block;
         padding-left: 20px;
     }        
       .kirana-club ul{
         padding-top: 20px;
-      }
-      .logo img{
-        background-color: black;
       }
 }
  

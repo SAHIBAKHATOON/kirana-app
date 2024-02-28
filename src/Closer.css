@@ -4,7 +4,7 @@
     color: #fff;
 }
 .heading-section-1{
-    max-width: 1100px !important;
+    max-width: 1050px !important;
     margin-left: auto;
     margin-right: auto;
     color: #000;
@@ -26,7 +26,7 @@
     text-decoration: underline;
 }
 .flex-1{
-    max-width: 1120px !important;
+    max-width: 1050px !important;
 display: flex;
 justify-content: space-between;
 margin-left: auto;
@@ -37,7 +37,7 @@ margin-right: auto;
     border-radius: 10px;
 }
 .card-1 img{
-    max-width: 350px;
+    max-width: 330px;
 }
 .card-1 p{
     padding-top: 20px;
@@ -59,7 +59,7 @@ margin-right: auto;
    border-radius: 10px;
    background-color: #fff;
 }
-@media only screen and (max-width: 786px){
+@media only screen and (max-width: 768px){
     .closer-section{
         max-width: 380px;
         overflow: hidden;

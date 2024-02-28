@@ -6,7 +6,7 @@
 }
 
 .heading-section {
-    max-width: 900px;
+    max-width: 850px;
 }
 
 .slider-section h1 {
@@ -21,12 +21,16 @@
     padding-bottom: 30px;
 }
 
-.flex {
-    max-width: 920px ;
-    /* display: flex; */
+.flexible-item {
+    max-width: 1100px;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+}
+
+.flexible_item {
+    display: flex;
+    display: none;
 }
 
 .card {
@@ -34,10 +38,8 @@
     background-color: #1c2636;
     border-radius: 10px;
     height: 300px;
-    max-width: 370px;
-    margin-left: auto;
-    margin-right: auto;
-   
+    max-width: 350px;
+    margin-left: 15px;
 }
 
 .card img,
@@ -55,32 +57,49 @@
 }
 
 .btn-sec {
-    max-width: 1250px;
+    max-width: 1050px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50px;
 }
-@media only screen and (max-width: 786px){
-    .slider-section{
+
+@media only screen and (max-width: 768px) {
+    .slider-section {
         max-width: 380px;
         overflow: hidden;
     }
-    .slider-section h1{
+
+    .slider-section h1 {
         padding-top: 50px;
         max-width: 270px;
     }
-      .flex{
-        display: block !important;
-      }
-      .card{
+
+    .flexible-item {
+        display: none;
+    }
+
+    .flexible_item {
+        display: block;
+    }
+
+    .flexible_item p {
+        max-width: 240px;
+    }
+
+    .card {
         margin-top: 20px;
         max-width: 300px;
         height: 340px;
         margin-left: auto;
-       margin-right: auto;
-      }
-      .btn{
+        margin-right: auto;
+    }
+
+    .btn {
         min-width: 290px !important;
-          margin-left: 40px !important;
-      }
+        margin-left: 40px !important;
+    }
+
+    .carousel {
+        display: none;
+    }
 }

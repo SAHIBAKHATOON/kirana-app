@@ -1,0 +1,15 @@
+.arrowbtns{
+    position:   absolute;
+    right:  120px;
+    margin-top: -380px;
+    cursor: pointer;
+}
+.arrowbtns img{
+    margin-left: 20px;
+}
+@media only screen and (max-width: 768px){
+    .arrowbtns{
+        display: none;
+    }
+    
+}

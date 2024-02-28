@@ -1,14 +1,13 @@
 .kirana-section{
-    max-width: 1000px;
+    max-width: 1070px;
     margin-left: auto;
 margin-right: auto;
-/* margin-top: 120px; */
 }
 .card-2{  
     margin-top: 80px;
     border: 2px solid #F5E2C8;
     border-radius: 10px;
-    max-width: 300px;
+    max-width: 340px;
     background-color: #f3ebdf;
 }
 .card-2 p{
@@ -36,9 +35,9 @@ height: 60px;
     font-size: 11px;
     color: gray;
  }
- @media only screen and (max-width: 786px){
+ @media only screen and (max-width: 768px){
       .kirana-section {
-       display: none;
+        max-width: 300px;
       }
        
  }

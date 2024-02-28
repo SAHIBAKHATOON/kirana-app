@@ -9,7 +9,7 @@ import Insider from './Insider';
 import About from './About';
 import Footer from './footer';
 import CarouselSlider from './CarouselSlider';
-
+ 
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,7 @@ function App() {
     <Brand />
     <Club/>
     <CarouselSlider />
+    
     <Closer />
     <Test />
     <Insider />

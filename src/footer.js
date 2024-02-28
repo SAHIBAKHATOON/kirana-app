@@ -1,6 +1,6 @@
  import React from 'react';
  import './footer.css';
-import logo from '../src/Asset/logo.png'
+import logo from '../src/Asset/logo-white.png'
 import linkedin1 from '../src/Asset/in1.svg';
 import youtube from '../src/Asset/youtube.svg';
 import x1 from '../src/Asset/X1.svg'
