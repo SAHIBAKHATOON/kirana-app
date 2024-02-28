@@ -2,7 +2,8 @@ import React from 'react'
 import Slider from "react-slick";
 import kello from '../src/Asset/kello.png';
  import './test.css'
- import "slick-carousel/slick/slick.css";
+//  import "slick-carousel/slick/slick.css";
+import 'slick-carousel/slick/slick.css';
  import "slick-carousel/slick/slick-theme.css";
 const test = () => {
     var settings = {
